@@ -10,7 +10,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 ### Setup
 Clone this repository by using the command line :
-`git clone https://github.com/LethaboMot/Hello-Micro.git`
+`git clone https://https://github.com/LethaboMot/Portfolio.git
 ### Install
 ### Usage
 ### Run tests
