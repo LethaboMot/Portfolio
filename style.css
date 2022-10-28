@@ -8,7 +8,7 @@
   border-bottom-width: 70px;
   border-radius: 10px;
   box-shadow: 0 0 5px;
-  background-image: url("images/background.svg"), url("images")
+  background-image: url("images/background.svg"), url("images");
 }
 
 .i {
