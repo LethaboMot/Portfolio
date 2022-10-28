@@ -10,7 +10,7 @@
 }
 
 .app-wrap {
- background-image: url("images/background.svg"), url("images")
+  background-image: url("images/background.svg"), url("images")
 }
 
 .i {
@@ -21,24 +21,24 @@
 }
 
 #button2 {
- text-align: center;
+  text-align: center;
 }
 
 h1 {
- font-family: Poppins;
+  font-family: Poppins;
 }
 
 .mid {
- text-align: center;
- float: 33.33%;
- padding: 5px
+  text-align: center;
+  float: 33.33%;
+  padding: 5px
 }
 
 .topnav a.Split {
- float: right;
- padding: 5px
+  float: right;
+  padding: 5px
 }
 
 .socials {
- text-align: center;
+  text-align: center;
 }
