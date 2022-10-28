@@ -8,9 +8,6 @@
   border-bottom-width: 70px;
   border-radius: 10px;
   box-shadow: 0 0 5px;
-}
-
-.app-wrap {
   background-image: url("images/background.svg"), url("images")
 }
 
