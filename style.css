@@ -1,44 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
 .app-wrap {
-    max-width: 390px;
-    height: 70vh;
-    margin: 5vh auto 2vh auto;
-    border: 5px solid rgb(255, 255, 255);
-    border-bottom-width: 70px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px;
+  max-width: 390px;
+  height: 70vh;
+  margin: 5vh auto 2vh auto;
+  border: 5px solid rgb(255, 255, 255);
+  border-bottom-width: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
 }
 
 .app-wrap {
-    background-image: url("images/background.svg"), url("images")
+  background-image: url("images/background.svg"), url("images")
 }
 
 .i {
-    padding: 10px;
-    border-radius: 20px;
-    margin: 20px;
-    flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px;
+  flex-direction: column;
 }
 
 #button2 {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    font-family: Poppins;
+  font-family: Poppins;
 }
 
 .mid {
-    text-align: center;
-    float: 33.33%;
-    padding: 5px
+  text-align: center;
+  float: 33.33%;
+  padding: 5px
 }
 
 .topnav a.Split {
-    float: right;
-    padding: 5px
+   float: right;
+   padding: 5px
 }
 
 .socials {
-    text-align: center;
+   text-align: center;
 }
