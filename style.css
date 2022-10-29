@@ -10,7 +10,7 @@ html {
 }
 
 header .toolbar {
-  font-family: 'Poppins, sans=serif';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -59,7 +59,7 @@ header {
   padding: 0 24px;
 }
 
-#introduction>a {
+#introduction > a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
