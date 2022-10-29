@@ -1,44 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
-.app-wrap {
-    max-width: 390px;
-    height: 70vh;
-    margin: 5vh auto 2vh auto;
-    border: 5px solid rgb(255, 255, 255);
-    border-bottom-width: 70px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,1d00;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.app-wrap {
-    background-image: url("images/background.svg"), url("images")
+html {
+  font-family: Poppins, sans-serif;
 }
 
-.i {
-    padding: 10px;
-    border-radius: 20px;
-    margin: 20px;
-    flex-direction: column;
+header .toolbar {
+  font-family: 'Poppins, sans=serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #636fd4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#button2 {
-    text-align: center;
+header .toolbar a {
+  text-decoration: none;
+  color: #636fd4;
 }
 
-h1 {
-    font-family: Poppins;
+header {
+  margin: 0 auto;
+  height: 48px;
+  padding: 0 24px;
 }
 
-.mid {
-    text-align: center;
-    float: 33.33%;
-    padding: 5px
+#Introduction {
+  width: 100%;
+  height: calc(100vh - 48px);
+  background-image: url("images/background.svg");
+  background-size: 100% 100%;
+  padding-top: 114px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.topnav a.Split {
-    float: right;
-    padding: 5px
+#Introduction h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #253652;
+  padding: 0 24px;
 }
 
-.socials {
-    text-align: center;
+#toppart p {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  color: #344563;
+  padding: 0 24px;
+}
+
+#introduction>a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8b96f3;
+  text-decoration: none;
+  padding: 0 24px;
+}
+
+.Socials {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0 24px;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #636fd4;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #636fd4;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.btn:active {
+  background-color: rgb(31, 31, 241);
+}
+
+.btn:disabled {
+  color: #556175;
+  border: 1px solid #c1c7d0;
 }
