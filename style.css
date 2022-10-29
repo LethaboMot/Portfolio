@@ -58,7 +58,8 @@ header {
   color: #344563;
   padding: 0 24px;
 }
-#introduction > a{
+
+#introduction > a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
